@@ -1,0 +1,14 @@
+
+<div class="container mt-4">
+  <h1 class="mb-4">Stupid Coaching</h1>
+  <div class="px-4 p-2 border-start border-5 mb-4">
+  <p><%= @question %></p>
+  <cite>&#8212;You</cite>
+  </div>
+  <div class="bg-warning bg-opacity-10 px-4 p-2 border-start border-5">
+      <p class="fw-bold"><%= @answer %></p>
+      <cite>&#8212;Your coach</cite>
+  </div>
+
+  <p class="mt-4"><%= link_to "Ask a new question", ask_path %></p>
+</div>
